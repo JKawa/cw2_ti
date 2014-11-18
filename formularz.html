@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="formularz.css" rel="stylesheet">
+		<title>formularz</title>
+		<meta name="author" content="Jolanta" />
+		<!-- Date: 2014-11-17 -->
+	</head>
+<body>
+	<div class="kontakt">
+		<h1>FORMULARZ KONTAKTOWY</h1>
+	<div class="formularz">  
+		<form>
+		<label>Imię :</label>
+		<input type="text" name="Imie" id="imie"/>  
+		</form>
+		<form>
+		<label>Nazwisko :</label>
+			<input type="text" name="Nazwisko" id="nazwisko"/>
+		</form>
+		<form>
+		<label>Adres E'mail :</label>
+			<input type="email" name="email" id="email"/> 
+		</form>
+		<form id="pole">
+		<label>Wiadomość :</label>
+			<textarea name="textarea" rows="4" cols="16" id="wiad" ></textarea>  
+		</form>	
+	</div>
+	<button  id="wstecz">Wstecz</button>
+    <button type="submit" id="wyslij">Wyślij</button>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="formularz.js"></script>
+	</body>
+</html>
